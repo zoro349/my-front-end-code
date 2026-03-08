@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>视差滚动效果</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+
+      box-sizing: border-box;
+    }
+
+    /* 让body，html和当前可视区域一样大 */
+    html,
+    body,
+    section[class*="section"] {
+      height: 100%;
+      width: 100%;
+    }
+
+    /* section[class*="section"] {
+      height: 100%;
+      width: 100%;
+    } */
+
+    .content {
+      width: 100%;
+      height: 25%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 18px;
+      /* 行高 */
+      line-height: 40px;
+      padding: 40px;
+      /* 文字间的距离 */
+      letter-spacing: 4px;
+    }
+
+    .section1 {
+      background: url(./img/preview_png.png) no-repeat center center/cover fixed;
+    }
+
+    .section2 {
+      background: url(./img/preview_png\ \(1\).png) no-repeat center center/cover fixed;
+    }
+
+    .section3 {
+      background: url(./img/preview_png\ \(2\).png) no-repeat center center/cover fixed;
+    }
+
+    .section4 {
+      background: url(./img/preview_png\ \(3\).png) no-repeat center center/cover fixed;
+    }
+
+    section[class*="section"] h2 {
+      text-align: center;
+      font-size: 100px;
+      /* font-weight: 400; */
+      color: white;
+      letter-spacing: 10px;
+      margin-top: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 第一屏 -->
+  <section class="section1">
+    <div class="content">
+      <p>夕阳缓缓沉向天际，把整片天空都染成了温柔的橘红与淡紫。云朵被余晖镶上一层金边，层层叠叠，像被点燃的棉絮，在风里轻轻浮动。</p>
+      <p>远处的楼宇、树木都被拉得长长的影子，安静地卧在大地上，连风都放慢了脚步，带着一天将尽。天色一点点暗下来，却不显得冷清，反倒多了几分治愈与安心。</p>
+      <p>光线渐渐柔和，不再刺眼，而是暖暖地洒在屋顶、树梢和地面上，给万物都蒙上一层朦胧的光晕。</p>
+      <p>风景独好</p>
+    </div>
+    <h2>落日夕阳</h2>
+  </section>
+  <!-- 第二屏 -->
+  <section class="section2">
+    <div class="content">
+      <p>青山静静依偎着流云，把一汪湖水映成了澄澈的碧青与浅蓝。微风拂过水面，泛起层层涟漪，像揉碎了的翡翠，在光影里轻轻摇晃。</p>
+      <p>远处的峰峦、岸边的草木都映在清波之中，安静地卧在湖心里，连时光都放慢了脚步，带着山水的清幽。天色渐渐柔和，却不显得寂寥，反倒多了几分恬淡与安然。</p>
+      <p>远处的峰峦、岸边的草木都映在清波之中，安静地卧在湖心里，连时光都放慢了脚步，带着山水的清幽。天色渐渐柔和，却不显得寂寥，反倒多了几分恬淡与安然。</p>
+      <p>风景独好</p>
+    </div>
+    <h2>山水湖色</h2>
+  </section>
+  <!-- 第三屏 -->
+  <section class="section3">
+    <div class="content">
+      <p>夕阳缓缓沉向天际，把整片天空都染成了温柔的橘红与淡紫。云朵被余晖镶上一层金边，层层叠叠，像被点燃的棉絮，在风里轻轻浮动。</p>
+      <p>远处的楼宇、树木都被拉得长长的影子，安静地卧在大地上，连风都放慢了脚步，带着一天将尽。天色一点点暗下来，却不显得冷清，反倒多了几分治愈与安心。</p>
+      <p>光线渐渐柔和，不再刺眼，而是暖暖地洒在屋顶、树梢和地面上，给万物都蒙上一层朦胧的光晕。</p>
+      <p>风景独好</p>
+    </div>
+    <h2>广阔蓝海</h2>
+  </section>
+  <!-- 第四屏 -->
+  <section class="section4">
+    <div class="content">
+      <p>夕阳缓缓沉向天际，把整片天空都染成了温柔的橘红与淡紫。云朵被余晖镶上一层金边，层层叠叠，像被点燃的棉絮，在风里轻轻浮动。</p>
+      <p>远处的楼宇、树木都被拉得长长的影子，安静地卧在大地上，连风都放慢了脚步，带着一天将尽。天色一点点暗下来，却不显得冷清，反倒多了几分治愈与安心。</p>
+      <p>光线渐渐柔和，不再刺眼，而是暖暖地洒在屋顶、树梢和地面上，给万物都蒙上一层朦胧的光晕。</p>
+      <p>风景独好</p>
+    </div>
+    <h2>白雪蓝天</h2>
+  </section>
+</body>
+
+</html>
